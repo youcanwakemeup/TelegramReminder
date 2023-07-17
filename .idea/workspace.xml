@@ -5,12 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5770c32-e2ab-4ec6-a2e7-fea9798a449f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/model/NotificationTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/repository/NotificationTaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/service/NotificationScheduleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/service/NotificationTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/liquibase/changelog-master.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/liquibase/scripts/telegram.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/listener/TelegramBotUpdatesListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/listener/TelegramBotUpdatesListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pro/sky/telegrambot/listener/TelegramBotUpdatesListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pro/sky/telegrambot/listener/TelegramBotUpdatesListener.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -38,6 +59,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -47,6 +72,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "7b0ed8c8c9087e5bcaf8917932d6604c",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -55,7 +84,12 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.TelegramBotApplication">
+    <configuration name="telegram.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/liquibase/scripts/telegram.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="TelegramBotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="telegram-bot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pro.sky.telegrambot.TelegramBotApplication" />
@@ -72,7 +106,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689531821049</updated>
-      <workItem from="1689531822100" duration="615000" />
+      <workItem from="1689531822100" duration="1924000" />
+      <workItem from="1689547141784" duration="1348000" />
+      <workItem from="1689588459592" duration="1089000" />
+      <workItem from="1689596417179" duration="7340000" />
     </task>
     <servers />
   </component>
@@ -81,5 +118,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TelegramReminder$TelegramBotApplication.ic" NAME="TelegramBotApplication Coverage Results" MODIFIED="1689602958379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
